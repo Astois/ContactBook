@@ -36,7 +36,7 @@ def main():
                             if DelLine not in line:
                                 f.write(line)   # Write remaining lines back to the file
                         f.truncate()
-                        print("Delted!")        # display message
+                        print("Deleted!")        # display message
                 delete()  
         elif contactbook.lower() == "no":
             print("Exiting...")
